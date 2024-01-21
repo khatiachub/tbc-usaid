@@ -1,0 +1,117 @@
+
+@media (max-width: 1362px) {
+	.grid-container {
+        width: 95%;
+	}
+    .header-background-wraper{
+        width: 95%;
+    }
+    .header-wraper{
+        width: 95%;
+    }
+    .paragraph{
+        width: 95%;
+    }
+    .span{
+        width: 95%;
+    }
+    .course-title{
+        width: 95%;
+    }
+}
+@media (max-width:1024px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (max-width:768px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .course-image{
+       height: 220px;
+       object-fit: cover;
+    }
+    .course-name-register{
+        margin-top: 30px;
+    }
+    .course-details-wraper{
+        margin-top: 30px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .burger-menu{
+        display:flex;
+        flex-direction: column;
+        align-items:start;
+        justify-content: baseline;
+        position: fixed;
+        right: 20px;
+        z-index: 200;
+        top:27px;
+    }
+    .burger-line{
+        height: 3px;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-top: 6px;
+        transition: 0.3s;
+    }
+    .burger-menu.color .burger-line{
+        background-color: #999999;
+    }
+    .burger-line:nth-child(odd){
+        width: 16px;
+    }
+    .burger-line:nth-child(even){
+        width: 32px;
+    }
+    .burger-line:nth-child(3){
+        align-self: end;
+    }
+    .burger-menu.active .burger-line:nth-child(1) {
+        transform:translate(2px,3px) rotate(43deg);
+      }
+      
+      .burger-menu.active .burger-line:nth-child(2) {
+        transform:rotate(-43deg);
+      }
+      
+      .burger-menu.active .burger-line:nth-child(3) {
+        transform:translate(-1.5px,-3px) rotate(43deg);
+      }
+      .burger-navbar{
+        transform: translateX(600px);
+        transition: 0.5s linear;
+        display: block;
+        width: 250px;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        z-index: 100;
+        min-height: 100vh;
+        background-color: rgb(43,43,43);
+    }
+    .d-block{
+        transform: translateX(0px);
+      } 
+      .burger-nav-list{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+        padding-right: 20px;
+        margin-top: 17vh;
+      }     
+}
+@media (max-width:768px) {
+     .main-title{
+        font-size: 23px;
+     }
+     .paragraph{
+        font-size: 18px;
+        line-height:1.7;
+     }
+}

@@ -12,4 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+//burger bar
+const burger=document.getElementById('burger-menu')
+const nav=document.getElementById('burger-navbar')
+burger.addEventListener('click',function(){
+    nav.classList.toggle('d-block');
+    burger.classList.toggle('active');
+    burger.classList.toggle('color')
+})
+// document.addEventListener('click',function(){
+//     nav.classList.remove('d-block');
 
+// })
