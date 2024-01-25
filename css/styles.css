@@ -1,4 +1,7 @@
 /* header */
+body {
+	font-family: "TBC X";
+  }
 .header {
   background-color: rgb(26, 30, 31);
   width: 100%;
@@ -468,6 +471,3 @@ section:nth-child(odd) {
   transition: 0.3s;
 }
 
-body {
-  font-family: "TBC X";
-}
