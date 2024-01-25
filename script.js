@@ -30,11 +30,21 @@ if (window.innerWidth < 768) {
 //burger bar
 const burger = document.getElementById("burger-menu");
 const nav = document.getElementById("burger-navbar");
+const headeroverlay = document.querySelector(".header-overlay");
 burger.addEventListener("click", function () {
   nav.classList.toggle("d-block");
   burger.classList.toggle("active");
   burger.classList.toggle("color");
+  headeroverlay.classList.toggle('d-block')
 });
+
+headeroverlay.addEventListener('click',function(){
+  nav.classList.remove("d-block");
+  headeroverlay.classList.remove('d-block')
+  burger.classList.remove("active");
+  burger.classList.remove("color");
+})
+
 
 //slider
 

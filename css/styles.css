@@ -14,6 +14,7 @@ body {
   justify-content: space-around;
   z-index: 10;
 }
+
 .header-wraper {
   width: 70%;
   display: flex;
