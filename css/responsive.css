@@ -88,7 +88,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: baseline;
-    position: fixed;
+    position: absolute;
     right: 20px;
     z-index: 200;
     top: 27px;

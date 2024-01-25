@@ -12,6 +12,21 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+if (window.innerWidth < 768) {
+  let prevScrollPos = window.scrollY ;
+  window.onscroll = function() {
+    const currentScrollPos = window.scrollY;
+
+    if (prevScrollPos > currentScrollPos) {
+        document.getElementById("main-header").style.top = "0";
+    } else {
+        document.getElementById("main-header").style.top = "-100px"; 
+    }
+    prevScrollPos = currentScrollPos;
+}
+}
+
 //burger bar
 const burger = document.getElementById("burger-menu");
 const nav = document.getElementById("burger-navbar");
