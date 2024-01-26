@@ -20,7 +20,7 @@ if (window.innerWidth < 768) {
 
     if (prevScrollPos > currentScrollPos) {
         document.getElementById("main-header").style.top = "0";
-        document.getElementById("burger-menu").style.top="0"
+        document.getElementById("burger-menu").style.top="27px"
     } else {
         document.getElementById("main-header").style.top = "-100px"; 
         document.getElementById("burger-menu").style.top="-100px";
