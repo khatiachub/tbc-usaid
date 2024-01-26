@@ -88,7 +88,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: baseline;
-    position: absolute;
+    position: fixed;
     right: 20px;
     z-index: 200;
     top: 27px;
@@ -162,10 +162,10 @@
 }
 @media (max-width: 768px) {
   .main-title {
-    font-size: 23px;
+    font-size: 25px;
   }
   .main-title:nth-child(2) {
-    font-size: 23px;
+    font-size: 25px;
   }
   .paragraph {
     font-size: 17px;
@@ -185,16 +185,19 @@
   }
 }
 @media (max-width: 500px) {
+  .footer{
+    height: 265px;
+  }
   .footer-wraper {
     position: relative;
     min-height: 200px;
   }
   .footer-paragraph {
-    top: 130px;
+    top: 150px;
     position: absolute;
   }
   .rules {
-    top: 100px;
+    top: 105px;
     position: absolute;
   }
   .footer-mail-button {

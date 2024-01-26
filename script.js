@@ -86,6 +86,9 @@ function handleResize() {
     });
   } else {
     showSlidesDesktop();
+    slides.forEach((slide, i) => {
+      slide.style.transform = `translateX(0px)`;
+    });
   }
 }
 

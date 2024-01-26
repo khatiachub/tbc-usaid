@@ -63,6 +63,7 @@ body {
 }
 .main-title:nth-child(2) {
   font-size: 34px;
+  margin-top: 10px;
 }
 .header-background-wraper {
   width: 70%;
@@ -122,7 +123,7 @@ section:nth-child(odd) {
   min-height: 410px;
   border-radius: 6px;
   border: 1px solid rgba(85, 85, 85, 1);
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .course-image {
   border-top-right-radius: 6px;
@@ -133,8 +134,12 @@ section:nth-child(odd) {
 .course-name-register {
   color: rgb(244, 244, 244);
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 14px;
+  line-height: 1.6em;
+}
+.course-wraper{
+  min-height: 300px;
 }
 .course-name-register:nth-child(even) {
   font-size: 18px;
@@ -433,7 +438,7 @@ section:nth-child(odd) {
 .footer-icons-box {
   display: flex;
   justify-content: space-between;
-  width: 90px;
+  width: 95px;
 }
 .footer-icon {
   width: 40px;
