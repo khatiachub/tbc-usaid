@@ -192,7 +192,6 @@ section:nth-child(odd) {
   color: rgb(244, 244, 244);
   margin-top: 40px;
   font-size: 22px;
-  z-index: 100;
 }
 
 .transition {
@@ -214,7 +213,6 @@ section:nth-child(odd) {
   width: 50px;
   justify-content: space-between;
   cursor: pointer;
-  z-index: 100;
 }
 .dot {
   width: 6px;
